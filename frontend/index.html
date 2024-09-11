@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant ChatBot</title>
+    <link rel="stylesheet" href="/static/css/styles.css"> <!-- Updated path -->
+</head>
+<body>
+    <div class="chat-container">
+        <div id="chat-box" class="chat-box">
+            <div class="welcome-message">Welcome to the Restaurant ChatBot!</div>
+            <div class="bot-message">Select 1 to Place an order<br>Select 99 to checkout order<br>Select 98 to see order history<br>Select 97 to see current order<br>Select 0 to cancel order</div>
+        </div>
+        <form id="chat-form" class="chat-form">
+            <input type="text" id="user-input" placeholder="Type your message here..." autocomplete="off">
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    <script src="/static/js/script.js"></script> <!-- Updated path -->
+</body>
+</html>
