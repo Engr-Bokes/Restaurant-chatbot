@@ -76,16 +76,20 @@ Sample Interaction:
 Bot: Select 1 to Place an order
 User: 1
 Bot: Menu:
-     1. Burger
-     2. Pizza
+     1. Rice and Stew
+     2. Melon Soup and Swallow
      3. Pasta
      4. Salad
+     5. Beans and Yam
+     6. Fried Chicken
 User: 2
-Bot: Pizza added to your order.
+Bot: Melon Soup and Swallow added to your order.
 User: 1
-Bot: Burger added to your order.
+Bot: Rice and stew added to your order.
 User: 99
-Bot: Order placed successfully. You can start a new order by selecting 1.
+Bot: Order placed successfully.
+
+You can start a new order by pressing 1
 
 
 Technologies Used:
