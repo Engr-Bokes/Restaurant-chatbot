@@ -29,7 +29,7 @@ function addBotMessage(message) {
 
 // Function to send the user message to the server and receive the bot response
 function sendToBot(message) {
-    fetch('/chat', {
+    fetch('https://chatbot-restaurant.hostless.app/chat', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
