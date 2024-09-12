@@ -105,6 +105,15 @@ backend/orders.js: Logic for handling orders and session data.
 static/css/styles.css: Styling for the chatbot UI.
 static/js/script.js: Frontend logic for handling chat interactions with the bot.
 
+N.B: For API calls in script.js file, replace my hosting URL link with yours and for local testing or usage, just remove the URL and leave only '/chat'
+
+Also in the index.html file, for local usage remove my hosting URL added to the link stylesheet.
+For example: <link rel="stylesheet" href="https://my-hosting-url.com/static/css/styles.css">
+remove https://my-hosting-url.com and we now have: <link rel="stylesheet" href="/static/css/styles.css">
+
+Similarly for javascript: <script src="https://my-hosting-url.com/static/js/script.js"></script>
+Remove https://my-hosting-url.com and we now have: <script src="/static/js/script.js"></script>
+
 Contributing:
 Feel free to submit a pull request or open an issue if you find any bugs or have suggestions for improvements. 
 My email: cbokesman@gmail.com.
