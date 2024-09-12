@@ -54,7 +54,7 @@ npm start
 Or, if you have nodemon installed, you can run:
 npm run dev
 
-Open your browser and navigate to http://localhost:3000 to view the chatbot interface.
+Open your browser and navigate to http://localhost:8000 to view the chatbot interface.
 
 How to Use:
 When the page loads, the bot will present you with the following options:
