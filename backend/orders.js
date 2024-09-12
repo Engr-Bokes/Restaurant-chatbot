@@ -40,7 +40,7 @@ function checkoutOrder(session) {
     // Push current order to order history and clear the current order
     session.history.push([...session.orders]);
     session.orders = [];
-    return 'Order placed successfully. Type 1 to view the Menu again';
+    return 'Order placed successfully. Type 1 to view the Menu again or refresh the page to start afresh.';
 }
 
 // Get order history
