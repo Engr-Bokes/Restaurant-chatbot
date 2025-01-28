@@ -37,7 +37,7 @@ npm (comes with Node.js) for installing dependencies.
 
 Installation:
 Clone the repository to your local machine:
-git clone https://github.com/your-username/restaurant-chatbot.git
+git clone https://github.com/Engr-Bokes/restaurant-chatbot.git
 cd restaurant-chatbot
 
 Install the necessary dependencies using npm:
