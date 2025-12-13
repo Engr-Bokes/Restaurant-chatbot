@@ -5,6 +5,7 @@
   "main": "backend/app.js",
   "scripts": {
     "start": "node backend/app.js",
+    "build": "node backend/app.js",
     "dev": "nodemon backend/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
